@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Social network for developers",
   "main": "server.js",
-  "engines": {
-    "node": "12.16.1"
-  },
   "scripts": {
     "client-install": "npm install --prefix client",
     "start": "node server.js",
@@ -30,5 +27,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": "12.16.1"
   }
 }
